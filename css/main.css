@@ -4,6 +4,13 @@ body{
     font-family: 'Indie Flower', cursive;
 }
 /* navbar */
+.tagline{
+    font-size:0.7em;
+    margin-left: 1em;
+    padding-left: 2em;
+    font-style: normal;
+    color: rgba(235, 47, 47, 0.829);
+}
 .transparent{
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -11,6 +18,12 @@ body{
     padding: 25px;
     background-color: #F15025;
     border: 5px solid black;
+}
+.navbar-brand{
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    margin: 0;
 }
 .navbar-brand,
 .nav-link{
@@ -20,7 +33,13 @@ body{
     font-style: italic;
     font-weight: bold;
 }
-.navbar-brand:hover,
+.navbar-brand:hover{
+    color: whitesmoke!important;
+    font-size: 29px;
+}
+.tagline:hover{
+    color: dodgerblue!important;
+}
 .nav-link:hover{
     color: whitesmoke!important;
     font-size: 32px;
@@ -104,6 +123,7 @@ header{
 /* About Section */
 #about{
     background-color: #2D3142;
+    margin-bottom: 0;
 }
 #about .box{
     display: flex;
@@ -123,6 +143,14 @@ header{
     border-left: 90px solid #2D3142;
 }
 /* About Section End*/
+
+/* Author Card Section */
+.card-deck{
+    padding:2%;
+}
+#author{
+    background-color:#2D3142;
+}
 /* Footer Section */
 #footer{
     padding: 40px;
